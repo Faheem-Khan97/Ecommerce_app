@@ -1,15 +1,14 @@
 .product{
     display:flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     margin: 10px;
-    padding: 15px;
+    padding: 25px 40px;
     max-height: 400px;
     min-width: 100px;
     z-index: 1;
+    
 }
 .product > img{
     
@@ -22,14 +21,24 @@
 .product__info{
     margin-bottom: 15px;
     height: 100px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    place-items: flex-start;
+   
     
 }
 
 .product > button{
     background-color: orange;
     border: 1px solid orange;
+    padding: 5px 8px;
+    outline: orange;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(7, 7, 55);
+    font-size: 14px;
+    border-radius: 4px;
+    max-width: 140px;
+    margin: 4px auto;
 }
 .product__rating{
     display: flex;

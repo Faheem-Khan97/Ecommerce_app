@@ -1,0 +1,69 @@
+.login{
+    height: 100vh;
+    padding: 3vh 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__container{
+    padding: 2vh 40px;
+    display: flex;
+    width: 300px;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(230, 230, 229);
+
+
+    
+}
+.login__img-logo img{
+    width: 180px;
+    height: 100px;
+    object-fit: contain;
+}
+.login__form_container, .login__input{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.login__form_container{
+    border: 1px solid rgb(179, 177, 177);
+    padding: 15px 25px ;
+    color: gray;
+    font-family: sans-serif;
+
+}
+.login__input, .login__input>input, .login__input>label {
+    margin: 3px 0px;
+}
+.login__input{
+    padding: 5px 0px;
+    font-size: 12px;
+}
+.login__form_container h2{
+    margin: 0px auto 5px;
+    color: black;
+}
+.btn{
+    padding: 4px 8px;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 5px;
+    outline: orange;
+    font-weight: 500;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+.sign-up{
+    background-color: rgb(185, 184, 184);
+    color: black;
+    background-color: rgb(185, 184, 184);
+    border: 1px solid rgb(185, 184, 184);
+    border-radius: 5px;
+    outline: rgb(185, 184, 184);
+}
